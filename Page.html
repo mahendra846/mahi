@@ -1,0 +1,135 @@
+<html>
+<!-- hiiii -->
+<head>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #c850c0, #4158d0);
+            padding-top: 10%;
+        }
+
+        .login-container {
+            margin: auto;
+            margin-top: -50px;
+            height: 650px;
+            width: 950px;
+            background-color: aliceblue;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        .Member-login {
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Poppins-Bold;
+            align-items: center;
+            padding: 50px 50px 50px 40px;
+
+        }
+
+        .email-password {
+            padding-top: 50px;
+            font-size: 20px;
+        }
+
+        .form-content {
+            background-position: 20px 15px;
+            background-repeat: no-repeat;
+            border-radius: 30px;
+            height: 50px;
+            width: 270px;
+            border-style: none;
+            padding: 0px 0px 0px 45px;
+            background-color: #e6e6e6;
+        }
+
+        .photo {
+            width: 316px;
+            padding: 50px 50px 50px 100px;
+        }
+
+        .Login-button {
+            background-size: 25px;
+            width: 270px;
+            height: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #e6e6e6;
+            padding: 10px 20px 10px 20px;
+            border-radius: 30px;
+            border-style: none;
+            background-color: rgb(18, 237, 18);
+        }
+
+        .forgot-container {
+            margin-top: -20px;
+            font-family: Poppins-Bold;
+            font-size: 15px;
+            padding: 0px 0px 0px 60px;
+        }
+
+        .password-text {
+            color: #999;
+            font-family: Poppins-Regular;
+            line-height: 5;
+            text-decoration: none;
+            padding-left: 5px;
+        }
+
+        .create-your-account-text {
+            text-decoration: none;
+            text-size-adjust: 18px;
+            padding-left: 50px;
+        }
+
+        .create-account-container {
+            position: absolute;
+            bottom: -5px;
+            font-size: 15px;
+        }
+
+        .login-form {
+            width: 50%;
+            position: relative;
+            padding: 150px 50px 50px 100px;
+        }
+
+        .email-icon {
+            background-image: url('email.png');
+        }
+
+        .password-icon {
+            background-image: url('password.png');
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="photo">
+            <img src="icon.webp"></img>
+        </div>
+        <div class="login-form">
+            <span class="Member-Login">Member Login</span>
+            <div class="email-password">
+                <input class="form-content email-icon" type="text" name="Email" placeholder="Email"><br><br>
+                <input class="form-content password-icon" type="password" name="Password"
+                    placeholder="Password"><br><br>
+                <input class="Login-button" type="button" value="LOGIN">
+                <div class="forgot-container">
+                    <span>Forgot</span>
+                    <a class="password-text" href="#">Username/Password?
+                </div>
+                <div class="create-account-container">
+                    <a class="create-your-account-text" href="SignUp.html">
+                        create your account
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
